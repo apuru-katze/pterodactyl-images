@@ -28,7 +28,7 @@ jobs:
         tag:
           - 8
           - 11
-          - 17
+         #- 17 #not work nya~
           - 21
     steps:
       - name: Git checkout for Github repository workspace

@@ -27,11 +27,12 @@ jobs:
         tag:
           - 8
           - 11
-          - 16
+          #- 16 #not work nya~
           - 17
           - 18
           - 20
           - 21
+          - 25
     steps:
       - name: Git checkout for Github repository workspace
         uses: actions/checkout@v4
