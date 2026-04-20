@@ -1,4 +1,4 @@
-FROM        ghcr.io/graalvm/jdk-community:17-ol8
+FROM        ghcr.io/graalvm/graalvm-community:17.0.9
 
 LABEL       author="Softwarenoob" maintainer="admin@softwarenoob.com"
 LABEL       org.opencontainers.image.source="https://github.com/Software-Noob/pterodactyl-images"

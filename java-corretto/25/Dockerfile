@@ -1,4 +1,4 @@
-FROM        amazoncorretto:25
+FROM        amazoncorretto:25-jdk
 
 LABEL       author="apuru katze" maintainer="admin@apuru-katze"
 LABEL       org.opencontainers.image.source="https://github.com/apuru-katze/pterodactyl-images"

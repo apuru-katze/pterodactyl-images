@@ -1,7 +1,7 @@
 FROM        azul/zulu-openjdk:25
 
-LABEL       author="Software-noob" maintainer="admin@softwarenoob.com"
-LABEL       org.opencontainers.image.source="https://github.com/Software-Noob/pterodactyl-images"
+LABEL       author="apuru katze" maintainer="admin@apuru-katze"
+LABEL       org.opencontainers.image.source="https://github.com/apuru-katze/pterodactyl-images"
 LABEL       org.opencontainers.image.licenses="MIT"
 
 ENV         DEBIAN_FRONTEND noninteractive
