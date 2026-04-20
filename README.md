@@ -43,6 +43,8 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
   - `Java 20 Amazon|ghcr.io/apuru-katze/pterodactyl-images:java_20_corretto`
 - [Java 21 Amazon Corretto](https://github.com/apuru-katze/pterodactyl-images/tree/main/java-corretto/21)
   - `Java 21 Amazon|ghcr.io/apuru-katze/pterodactyl-images:java_21_corretto`
+- [Java 25 Amazon Corretto](https://github.com/apuru-katze/pterodactyl-images/tree/main/java-corretto/25)
+  - `Java 25 Amazon|ghcr.io/apuru-katze/pterodactyl-images:java_25_corretto`
 
 ### Java Azul Zulu [AMD64/ARM64]
 
@@ -64,6 +66,8 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
   - `Java 21 Zulu|ghcr.io/apuru-katze/pterodactyl-images:java_21_zulu`
 - [Java 22 Zulu](https://github.com/apuru-katze/pterodactyl-images/tree/main/java-zulu/22)
   - `Java 22 Zulu|ghcr.io/apuru-katze/pterodactyl-images:java_22_zulu`
+- [Java 25 Zulu](https://github.com/apuru-katze/pterodactyl-images/tree/main/java-zulu/25)
+  - `Java 25 Zulu|ghcr.io/apuru-katze/pterodactyl-images:java_25_zulu`
 
 ### Java Dragonwell [AMD64/ARM64]
 
@@ -75,6 +79,8 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
   - `Java 17 Dragonwell|ghcr.io/apuru-katze/pterodactyl-images:java_17_dragonwell`
 - [Java 21 Dragonwell](https://github.com/apuru-katze/pterodactyl-images/tree/main/java-dragonwell/21)
   - `Java 21 Dragonwell|ghcr.io/apuru-katze/pterodactyl-images:java_21_dragonwell`
+- [Java 25 Dragonwell](https://github.com/apuru-katze/pterodactyl-images/tree/main/java-dragonwell/25)
+  - `Java 25 Dragonwell|ghcr.io/apuru-katze/pterodactyl-images:java_25_dragonwell`
 
 ### Java Eclipse Temurin [AMD64/ARM64]
 
@@ -96,6 +102,8 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
   - `Java 21|ghcr.io/apuru-katze/pterodactyl-images:java_21`
 - [Java 22](https://github.com/apuru-katze/pterodactyl-images/tree/main/java/22)
   - `Java 22|ghcr.io/apuru-katze/pterodactyl-images:java_22`
+- [Java 25](https://github.com/apuru-katze/pterodactyl-images/tree/main/java/25)
+  - `Java 25|ghcr.io/apuru-katze/pterodactyl-images:java_25`
 
 ### Java GraalVM [AMD64/ARM64]
 
@@ -111,6 +119,8 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
   - `Java 21 GraalVM|ghcr.io/apuru-katze/pterodactyl-images:java_21_graalvm`
 - [Java 22 GraalVM JDK](https://github.com/apuru-katze/pterodactyl-images/tree/main/java-graalvm/22)
   - `Java 22 GraalVM|ghcr.io/apuru-katze/pterodactyl-images:java_22_graalvm`
+- [Java 25 GraalVM JDK](https://github.com/apuru-katze/pterodactyl-images/tree/main/java-graalvm/25)
+  - `Java 25 GraalVM|ghcr.io/apuru-katze/pterodactyl-images:java_25_graalvm`
 
 ### Java Liberica [AMD64/ARM64]
 
@@ -124,6 +134,8 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
   - `Java 21 Liberica|ghcr.io/apuru-katze/pterodactyl-images:java_21_liberica`
 - [Java 22 Liberica](https://github.com/apuru-katze/pterodactyl-images/tree/main/java-liberica/22)
   - `Java 22 Liberica|ghcr.io/apuru-katze/pterodactyl-images:java_22_liberica`
+- [Java 25 Liberica](https://github.com/apuru-katze/pterodactyl-images/tree/main/java-liberica/25)
+  - `Java 25 Liberica|ghcr.io/apuru-katze/pterodactyl-images:java_25_liberica`
 
 ### Java OpenJ9 [AMD64]
 
@@ -141,6 +153,8 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
   - `Java 20 OpenJ9|ghcr.io/apuru-katze/pterodactyl-images:java_20_openj9`
 - [Java 21 OpenJ9](https://github.com/apuru-katze/pterodactyl-images/tree/main/java-openj9/21)
   - `Java 21 OpenJ9|ghcr.io/apuru-katze/pterodactyl-images:java_21_openj9`
+- [Java 25 OpenJ9](https://github.com/apuru-katze/pterodactyl-images/tree/main/java-openj9/25)
+  - `Java 25 OpenJ9|ghcr.io/apuru-katze/pterodactyl-images:java_25_openj9`
 
 ### Java Shipilev Experimental [AMD64/ARM64]
 
