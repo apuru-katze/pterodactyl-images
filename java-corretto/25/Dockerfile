@@ -4,11 +4,11 @@ LABEL       author="apuru katze" maintainer="admin@apuru-katze"
 LABEL       org.opencontainers.image.source="https://github.com/apuru-katze/pterodactyl-images"
 LABEL       org.opencontainers.image.licenses="MIT"
 
-RUN         yum upgrade -y \
-            && yum install -y curl ca-certificates openssl git tar sqlite fontconfig freetype libstdc++.so.6 freetype-devel lsof build-essential tzdata iproute \
-            git gcc gcc-c++ automake make libtool \
-            && yum clean all \
-            && rm -rf /var/cache/yum \
+RUN         dnf upgrade -y \
+            && dnf install -y curl ca-certificates openssl git tar sqlite fontconfig freetype libstdc++ freetype-devel lsof tzdata iproute \
+            gcc gcc-c++ automake make libtool \
+            && dnf clean all \
+            && rm -rf /var/cache/dnf \
             && useradd -m -d /home/container container
 
 ENV         LC_ALL=en_US.UTF-8
