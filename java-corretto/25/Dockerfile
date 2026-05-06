@@ -4,9 +4,9 @@ LABEL       author="apuru katze" maintainer="admin@apuru-katze"
 LABEL       org.opencontainers.image.source="https://github.com/apuru-katze/pterodactyl-images"
 LABEL       org.opencontainers.image.licenses="MIT"
 
-RUN         dnf upgrade -y \
-            && dnf install -y curl ca-certificates openssl git tar sqlite fontconfig freetype libstdc++ freetype-devel lsof tzdata iproute \
-            gcc gcc-c++ automake make libtool \
+RUN         dnf install -y --allowerasing \
+            curl ca-certificates openssl git tar sqlite-libs fontconfig freetype libstdc++ \
+            tzdata iproute gcc gcc-c++ make findutils procps shadow-utils \
             && dnf clean all \
             && rm -rf /var/cache/dnf \
             && useradd -m -d /home/container container

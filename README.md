@@ -43,8 +43,8 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
   - `Java 20 Amazon|ghcr.io/apuru-katze/pterodactyl-images:java_20_corretto`
 - [Java 21 Amazon Corretto](https://github.com/apuru-katze/pterodactyl-images/tree/main/java-corretto/21)
   - `Java 21 Amazon|ghcr.io/apuru-katze/pterodactyl-images:java_21_corretto`
-- [Java 25 Amazon Corretto](https://github.com/apuru-katze/pterodactyl-images/tree/main/java-corretto/25)
-  - `Java 25 Amazon|ghcr.io/apuru-katze/pterodactyl-images:java_25_corretto`
+<!-- - [Java 25 Amazon Corretto](https://github.com/apuru-katze/pterodactyl-images/tree/main/java-corretto/25)
+  - `Java 25 Amazon|ghcr.io/apuru-katze/pterodactyl-images:java_25_corretto` -->
 
 ### Java Azul Zulu [AMD64/ARM64]
 
