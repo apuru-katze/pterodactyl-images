@@ -9,12 +9,12 @@ RESET_COLOR='\033[0m'
 
 # Verify Velocity
 echo "[INFO] Verifying PaperMC Velocity..."
-if [ ! -f server.jar ]; then
-echo "[ERROR] server.jar tidak ditemukan!"
+if [ ! -f velocity.jar ]; then
+echo "[ERROR] velocity.jar tidak ditemukan!"
 exit 1
 fi
 
-CURRENT_SHA256=$(sha256sum server.jar | awk '{print $1}')
+CURRENT_SHA256=$(sha256sum velocity.jar | awk '{print $1}')
 
 VERSION=$(
     curl -fsSL https://api.papermc.io/v2/projects/velocity \
