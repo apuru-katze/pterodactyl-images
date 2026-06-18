@@ -20,12 +20,7 @@ CURRENT_SHA256=$(sha256sum Waterdog.jar | awk '{print $1}')
 EXPECTED_SHA256=$(
 curl -fsSL \
 https://api.github.com/repos/WaterdogPE/WaterdogPE/releases/latest |
-jq -r '
-.assets[]
-| select(.name | test("^Waterdog.*\\.jar$"))
-| .digest
-' |
-head -n1 |
+jq -r '.assets[] | select(.name=="Waterdog.jar") | .digest' |
 sed 's/^sha256://'
 )
     
