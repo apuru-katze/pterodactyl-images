@@ -4,10 +4,12 @@ LABEL       author="Kucing" maintainer="kucing@zelpstore.com"
 LABEL       org.opencontainers.image.source="https://github.com/apuru-katze/pterodactyl-images"
 LABEL       org.opencontainers.image.licenses="MIT"
 
-RUN         microdnf update \
-            && microdnf install -y jq curl ca-certificates openssl git tar sqlite fontconfig tzdata iproute gcc gcc-c++ freetype libstdc++ lsof glibc-locale-source glibc-langpack-en \
-            && microdnf clean all \
-            && adduser --home-dir /home/container container
+RUN         apt-get update -y \
+            && apt-get install -jq -y --no-install-recommends curl ca-certificates openssl git tar sqlite3 fontconfig libfreetype6 libstdc++6 lsof build-essential tzdata iproute2 locales \
+            && apt-get clean \
+            && rm -rf /var/lib/apt/lists/* \
+            && useradd -m -d /home/container container \
+            && locale-gen en_US.UTF-8
 
 ENV         LC_ALL=en_US.UTF-8
 ENV         LANG=en_US.UTF-8
