@@ -26,6 +26,7 @@ jobs:
       fail-fast: false
       matrix:
         tag:
+          - 11-waterdog
           - 25-ctd
           - 25-velocity
     steps:
