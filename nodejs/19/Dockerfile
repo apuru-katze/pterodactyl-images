@@ -1,4 +1,4 @@
-FROM        node:19-bullseye-slim
+FROM        node:19-bookworm-slim
 
 LABEL       author="Softwarenoob" maintainer="admin@softwarenoob.com"
 LABEL       org.opencontainers.image.source="https://github.com/Software-Noob/pterodactyl-images"
