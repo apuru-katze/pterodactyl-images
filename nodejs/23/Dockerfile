@@ -1,4 +1,4 @@
-FROM        node:14-bullseye-slim
+FROM        node:23-bookworm-slim
 
 LABEL       author="apuru katze" maintainer="admin@apuru-katze"
 LABEL       org.opencontainers.image.source="https://github.com/apuru-katze/pterodactyl-images"

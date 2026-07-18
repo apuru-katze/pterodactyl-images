@@ -1,7 +1,7 @@
-FROM        node:20-bookworm-slim
+FROM        node:20-bullseye-slim
 
-LABEL       author="Softwarenoob" maintainer="admin@softwarenoob.com"
-LABEL       org.opencontainers.image.source="https://github.com/Software-Noob/pterodactyl-images"
+LABEL       author="apuru katze" maintainer="admin@apuru-katze"
+LABEL       org.opencontainers.image.source="https://github.com/apuru-katze/pterodactyl-images"
 LABEL       org.opencontainers.image.licenses="MIT"
 
 RUN         apt-get update \

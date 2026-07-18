@@ -1,4 +1,5 @@
 ## Forked Egg From Trenutoo
+
 I just manage a little bit for match our standart hosting. miaw~
 
 ## Pelican/Pterodactyl/WISP Docker Images
@@ -15,19 +16,19 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
 
 ### Supported Platforms
 
-| Image                                                                                                                      | Supported platforms |
-| -------------------------------------------------------------------------------------------------------------------------- | ------------------- |
-| [Java Amazon Corretto](https://github.com/apuru-katze/pterodactyl-images#java-amazon-corretto-amd64arm64)                 | AMD64, ARM64        |
-| [Java Azul Zulu](https://github.com/apuru-katze/pterodactyl-images#java-azul-zulu-amd64arm64)                             | AMD64, ARM64        |
-| [Java Dragonwell](https://github.com/apuru-katze/pterodactyl-images#java-dragonwell-amd64arm64)                           | AMD64, ARM64        |
-| [Java Eclipse Temurin](https://github.com/apuru-katze/pterodactyl-images#java-eclipse-temurin-amd64arm64)                 | AMD64, ARM64        |
-| [Java GraalVM](https://github.com/apuru-katze/pterodactyl-images#java-graalvm-amd64arm64)                                 | AMD64, ARM64        |
-| [Java Liberica](https://github.com/apuru-katze/pterodactyl-images#java-liberica-amd64arm64)                               | AMD64, ARM64        |
-| [Java OpenJ9](https://github.com/apuru-katze/pterodactyl-images#java-openj9-amd64)                                        | AMD64               |
-| [Java Shenandoah](https://github.com/apuru-katze/pterodactyl-images#java-shenandoah-amd64arm64)                           | AMD64, ARM64        |
-| [Node.js](https://github.com/apuru-katze/pterodactyl-images#nodejs-amd64arm64)                                            | AMD64, ARM64        |
-| [Python](https://github.com/apuru-katze/pterodactyl-images#python-amd64arm64)                                             | AMD64, ARM64        |
-| [Sourcemod](https://github.com/apuru-katze/pterodactyl-images#sourcemod-amd64)                                            | AMD64               |
+| Image                                                                                                     | Supported platforms |
+| --------------------------------------------------------------------------------------------------------- | ------------------- |
+| [Java Amazon Corretto](https://github.com/apuru-katze/pterodactyl-images#java-amazon-corretto-amd64arm64) | AMD64, ARM64        |
+| [Java Azul Zulu](https://github.com/apuru-katze/pterodactyl-images#java-azul-zulu-amd64arm64)             | AMD64, ARM64        |
+| [Java Dragonwell](https://github.com/apuru-katze/pterodactyl-images#java-dragonwell-amd64arm64)           | AMD64, ARM64        |
+| [Java Eclipse Temurin](https://github.com/apuru-katze/pterodactyl-images#java-eclipse-temurin-amd64arm64) | AMD64, ARM64        |
+| [Java GraalVM](https://github.com/apuru-katze/pterodactyl-images#java-graalvm-amd64arm64)                 | AMD64, ARM64        |
+| [Java Liberica](https://github.com/apuru-katze/pterodactyl-images#java-liberica-amd64arm64)               | AMD64, ARM64        |
+| [Java OpenJ9](https://github.com/apuru-katze/pterodactyl-images#java-openj9-amd64)                        | AMD64               |
+| [Java Shenandoah](https://github.com/apuru-katze/pterodactyl-images#java-shenandoah-amd64arm64)           | AMD64, ARM64        |
+| [Node.js](https://github.com/apuru-katze/pterodactyl-images#nodejs-amd64arm64)                            | AMD64, ARM64        |
+| [Python](https://github.com/apuru-katze/pterodactyl-images#python-amd64arm64)                             | AMD64, ARM64        |
+| [Sourcemod](https://github.com/apuru-katze/pterodactyl-images#sourcemod-amd64)                            | AMD64               |
 
 ### Java Amazon Corretto [AMD64/ARM64]
 
@@ -43,7 +44,7 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
   - `Java 20 Amazon|ghcr.io/apuru-katze/pterodactyl-images:java_20_corretto`
 - [Java 21 Amazon Corretto](https://github.com/apuru-katze/pterodactyl-images/tree/main/java-corretto/21)
   - `Java 21 Amazon|ghcr.io/apuru-katze/pterodactyl-images:java_21_corretto`
-<!-- - [Java 25 Amazon Corretto](https://github.com/apuru-katze/pterodactyl-images/tree/main/java-corretto/25)
+  <!-- - [Java 25 Amazon Corretto](https://github.com/apuru-katze/pterodactyl-images/tree/main/java-corretto/25)
   - `Java 25 Amazon|ghcr.io/apuru-katze/pterodactyl-images:java_25_corretto` -->
 
 ### Java Azul Zulu [AMD64/ARM64]
@@ -191,6 +192,14 @@ These are [shipilev experimental builds.](https://builds.shipilev.net/) If you'r
   - `NodeJS 21|ghcr.io/apuru-katze/pterodactyl-images:nodejs_21`
 - [Nodejs 22](https://github.com/apuru-katze/pterodactyl-images/tree/main/nodejs/22)
   - `NodeJS 22|ghcr.io/apuru-katze/pterodactyl-images:nodejs_22`
+- [Nodejs 23](https://github.com/apuru-katze/pterodactyl-images/tree/main/nodejs/23)
+  - `NodeJS 23|ghcr.io/apuru-katze/pterodactyl-images:nodejs_23`
+- [Nodejs 24](https://github.com/apuru-katze/pterodactyl-images/tree/main/nodejs/24)
+  - `NodeJS 24|ghcr.io/apuru-katze/pterodactyl-images:nodejs_24`
+- [Nodejs 25](https://github.com/apuru-katze/pterodactyl-images/tree/main/nodejs/25)
+  - `NodeJS 25|ghcr.io/apuru-katze/pterodactyl-images:nodejs_25`
+- [Nodejs 26](https://github.com/apuru-katze/pterodactyl-images/tree/main/nodejs/26)
+  - `NodeJS 26|ghcr.io/apuru-katze/pterodactyl-images:nodejs_26`
 
 ### Python [AMD64/ARM64]
 
