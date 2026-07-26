@@ -8,7 +8,7 @@ CYAN='\033[0;36m'
 RESET_COLOR='\033[0m'
 
 PROJECT="velocity"
-VERSION="3.5.0-SNAPSHOT"
+VERSION="4.1.0-SNAPSHOT"
 USER_AGENT="Revi agent"
 
 # Verify Velocity
