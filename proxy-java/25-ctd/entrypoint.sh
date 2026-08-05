@@ -39,6 +39,7 @@ if [ "$CURRENT_SHA256" != "$EXPECTED_SHA256" ]; then
     echo "[ERROR] Velocity-CTD verification failed!"
     echo "[ERROR] Expected: $EXPECTED_SHA256"
     echo "[ERROR] Actual:   $CURRENT_SHA256"
+    echo "[ERROR] SILAHKAN REINSTALL SERVER UNTUK FIX ISSUE INI!"
     exit 1
 fi
 
