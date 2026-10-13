@@ -1,7 +1,6 @@
-## Forked Egg From Trenutoo
-
-I just manage a little bit for match our standart hosting. miaw~
-
+## Disclaimer
+### **Update Yolk From Trenutoo**, this fork use for learning and some part of code was lisence under MIT. If you want use this yolk is better you fork from mainstream.
+----------------------------------------------
 ## Pelican/Pterodactyl/WISP Docker Images
 
 Docker images that can be used with the Pelican/Pterodactyl/WISP Game Panel. You can request more images by opening a new issue. These are mostly created for myself.
