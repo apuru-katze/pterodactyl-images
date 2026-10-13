@@ -1,5 +1,5 @@
 ## Disclaimer
-### **Update Yolk From Trenutoo**, this fork use for learning and some part of code was lisence under MIT. If you want use this yolk is better you fork from mainstream.
+### **Update Yolk From Trenutoo**, this fork use for learning and some part of code was license under MIT. If you want use this yolk is better you fork from mainstream.
 ----------------------------------------------
 ## Pelican/Pterodactyl/WISP Docker Images
 
